@@ -11,9 +11,9 @@
                     <div class="col-md-9">
                         <div class="slider">
                             <ul class="slides">
-                                <li><a href="#"><img src="dummy/slide-1.jpg" alt="Slide 1"></a></li>
-                                <li><a href="#"><img src="dummy/slide-2.jpg" alt="Slide 2"></a></li>
-                                <li><a href="#"><img src="dummy/slide-3.jpg" alt="Slide 3"></a></li>
+                                <li><a href="#"><img src="{{asset('assets')}}/dummy/slide-1.jpg" alt="Slide 1"></a></li>
+                                <li><a href="#"><img src="{{asset('assets')}}/dummy/slide-2.jpg" alt="Slide 2"></a></li>
+                                <li><a href="#"><img src="{{asset('assets')}}/dummy/slide-3.jpg" alt="Slide 3"></a></li>
                             </ul>
                         </div>
                     </div>
@@ -21,12 +21,12 @@
                         <div class="row">
                             <div class="col-sm-6 col-md-12">
                                 <div class="latest-movie">
-                                    <a href="#"><img src="dummy/thumb-1.jpg" alt="Movie 1"></a>
+                                    <a href="#"><img src="{{asset('assets')}}/dummy/thumb-1.jpg" alt="Movie 1"></a>
                                 </div>
                             </div>
                             <div class="col-sm-6 col-md-12">
                                 <div class="latest-movie">
-                                    <a href="#"><img src="dummy/thumb-2.jpg" alt="Movie 2"></a>
+                                    <a href="#"><img src="{{asset('assets')}}/dummy/thumb-2.jpg" alt="Movie 2"></a>
                                 </div>
                             </div>
                         </div>
@@ -35,22 +35,22 @@
                 <div class="row">
                     <div class="col-sm-6 col-md-3">
                         <div class="latest-movie">
-                            <a href="#"><img src="dummy/thumb-3.jpg" alt="Movie 3"></a>
+                            <a href="#"><img src="{{asset('assets')}}/dummy/thumb-3.jpg" alt="Movie 3"></a>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <div class="latest-movie">
-                            <a href="#"><img src="dummy/thumb-4.jpg" alt="Movie 4"></a>
+                            <a href="#"><img src="{{asset('assets')}}/dummy/thumb-4.jpg" alt="Movie 4"></a>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <div class="latest-movie">
-                            <a href="#"><img src="dummy/thumb-5.jpg" alt="Movie 5"></a>
+                            <a href="#"><img src="{{asset('assets')}}/dummy/thumb-5.jpg" alt="Movie 5"></a>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <div class="latest-movie">
-                            <a href="#"><img src="dummy/thumb-6.jpg" alt="Movie 6"></a>
+                            <a href="#"><img src="{{asset('assets')}}/dummy/thumb-6.jpg" alt="Movie 6"></a>
                         </div>
                     </div>
                 </div> <!-- .row -->
